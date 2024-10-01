@@ -1,0 +1,317 @@
+*{padding: 0;
+  margin: 0;
+}
+a{color: #4b5b6a;
+  text-decoration: none;
+}
+body{color: #4b5b6a;
+
+}
+img{
+  max-width: 100%;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding: 200px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto 0px auto;
+  padding: 0 13%;
+  text-align: center;
+}
+   
+header{
+  position: fixed;
+  width: 100%;
+  background-color: #f7d8d8;
+  text-align: center;
+  z-index: 100;
+}
+
+header h1{
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:100px;
+  margin-top: -10px;
+}
+
+header p{
+  font-size: 23px;
+  margin-top: -40px;
+  margin-bottom: 30px;
+
+}
+header ul{
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+
+main div{
+  text-align: center;
+  position: relative;
+}
+
+#hero img {
+  width: 100%;
+  margin-top: 50px;
+  
+ }
+
+#about{
+  display: inline-block;
+  background-color:rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  border-radius: 50%;
+  font-size: 27px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: 20px;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
+  z-index: 99;
+
+}
+
+#items img{
+  width: 320px;
+  
+}
+#items{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#items p{
+  font-size: 20px;
+} 
+
+#profile{
+  background-color: #f7d8d8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#profile h2,#access h2,#contact h2{
+  font-size: 30px;
+  padding-top: 30px;
+
+}
+
+#profile h3{
+  font-size: 25px;
+  font-weight: lighter;
+  
+  padding-bottom: 30px;
+}
+
+#access h3{
+  font-size: 25px;
+  font-weight: lighter;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+#profile p{
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#profile img{
+  width: 250px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+
+
+#profile a{
+  display: inline-block;
+  background-color: #dc92f8;
+  border: 1px solid blue;
+  width: 250px;
+  border-radius: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#access,#contact{
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+#access iframe{
+  width: 100%;
+  height: 400px;
+}
+
+#contact a img{
+  padding-top: 20px;
+  width: 100px;
+}
+
+footer{
+  background-color:#f7d8d8 ;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  /* 1024pxまでの幅の場合に適応される */
+  
+
+  header h1{
+    font-size:80px;
+    margin-top: -10px;
+  }
+
+  header p{
+    font-size: 20px;
+    margin-top: -35px;
+  }
+
+  header ul{
+    font-size: 20px;
+  }
+  
+  #hero img {
+    width: 100%;
+    margin-top: 50px;
+    
+   }
+
+   #about{
+    width: 60%;
+    display: inline-block;
+    background-color:rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 10px;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
+    z-index: 99;
+  
+  }
+  #profile p{
+    font-size: 20px;
+    line-height: 25px;
+    
+  }
+      
+  }
+  @media screen and (max-width: 768px) {
+  /* 768pxまでの幅の場合に適応される */
+  
+  header h1{
+    font-size:80px;
+    margin-top: -10px;
+  }
+
+  header p{
+    font-size: 20px;
+    margin-top: -35px;
+  }
+
+  header ul{
+    font-size: 18px;
+  }
+  
+  #hero img {
+    width: 100%;
+    margin-top: 120px;
+    
+   }
+
+   #about{
+    width: 80%;
+    display: inline-block;
+    background-color:rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: -50px;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
+    z-index: 99;
+  
+  }
+  #profile p{
+    font-size: 18px;
+    line-height: 25px;
+    
+  }
+
+  html{
+    scroll-padding: 120px;
+  }     
+  }
+  @media screen and (max-width: 480px) {
+  /* 480pxまでの幅の場合に適応される */
+  header h1{
+    font-size:65px;
+    margin-top: -10px;
+  }
+
+  header p{
+    font-size: 18px;
+    margin-top: -35px;
+  }
+
+  header ul{
+    font-size: 15px;
+  }
+  
+  #hero img {
+    width: 100%;
+    margin-top: 100px;
+    
+   }
+
+   #about{
+    width: 80%;
+    display: inline-block;
+    background-color:rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 13px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: -50px;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
+    z-index: 99;
+  
+  }
+  #profile p{
+    font-size: 18px;
+    line-height: 25px;
+    
+  }
+
+  html{
+    scroll-padding: 120px;
+  } 
+
+      }
+  

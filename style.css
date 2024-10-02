@@ -270,13 +270,13 @@ footer{
   @media screen and (max-width: 480px) {
   /* 480pxまでの幅の場合に適応される */
   header h1{
-    font-size:65px;
+    font-size:57px;
     margin-top: -10px;
   }
 
   header p{
     font-size: 18px;
-    margin-top: -35px;
+    margin-top: -25px;
   }
 
   header ul{
@@ -309,6 +309,14 @@ footer{
     
   }
 
+  #items p{
+    font-size: 15px;
+  }
+
+  #access h3{
+    font-size: 18px;
+    
+  }
   html{
     scroll-padding: 120px;
   } 
